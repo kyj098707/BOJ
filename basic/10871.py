@@ -6,5 +6,3 @@ for num in input_list:
     
     if X > num:
         print(num, end= ' ')
-
-    
