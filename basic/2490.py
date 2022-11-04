@@ -1,14 +1,12 @@
 for _ in range(3):
     tmp = list(map(int, input().split()))
     if tmp.count(1) == 3:
-        print('A')
+        print("A")
     elif tmp.count(1) == 2:
-        print('B')
+        print("B")
     elif tmp.count(1) == 1:
-        print('C')
+        print("C")
     elif tmp.count(1) == 0:
-        print('D')
+        print("D")
     else:
-        print('E')
-
- 
+        print("E")

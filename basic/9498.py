@@ -1,14 +1,14 @@
 score = int(input())
 
 if score >= 90:
-    result = 'A'
+    result = "A"
 elif score >= 80:
-    result = 'B'
+    result = "B"
 elif score >= 70:
-    result = 'C'
+    result = "C"
 elif score >= 60:
-    result = 'D'
+    result = "D"
 else:
-    result = 'F'
+    result = "F"
 
 print(result)
