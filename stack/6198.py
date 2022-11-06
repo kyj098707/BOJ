@@ -1,4 +1,5 @@
 import sys
+
 input = sys.stdin.readline
 
 n = int(input())
@@ -11,8 +12,7 @@ for _ in range(n):
     while rooftop >= rooftop_stack[-1]:
         rooftop_stack.pop()
         cnt = cnt - 1
-        #print(rooftop_stack)
-    
+
     total = total + cnt
     rooftop_stack.append(rooftop)
     cnt = cnt + 1
