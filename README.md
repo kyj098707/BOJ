@@ -1,5 +1,5 @@
 ## BOJ
-### 코딩테스트 대비
+### 알고리즘 공부
 ### 2022.11 ~
 [![Solved.ac
 프로필](http://mazassumnida.wtf/api/generate_badge?boj=americanoisice)](https://solved.ac/americanoisice)
