@@ -19,7 +19,7 @@ while flag:
     count = count + 1
 
     if stack[-1] > target_val:
-        print("No")
+        print("NO")
         flag = False
         available = False
     elif stack[-1] == target_val:
