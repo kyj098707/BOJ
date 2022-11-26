@@ -1,4 +1,6 @@
 visit = [0 for _ in range(10000003)]
+
+
 def solution(k, tangerine):
     answer = 0
     for i in range(len(tangerine)):

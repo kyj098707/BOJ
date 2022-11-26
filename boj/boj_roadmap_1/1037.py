@@ -7,5 +7,3 @@ if len(num_list) == 1:
     print(num_list[0] ** 2)
 else:
     print(num_list[0] * num_list[-1])
-
-    

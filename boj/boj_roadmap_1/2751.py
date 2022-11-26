@@ -1,7 +1,8 @@
 import sys
+
 input = sys.stdin.readline
 
-#python 정렬은 n logn
+# python 정렬은 n logn
 n = int(input())
 num_list = []
 for _ in range(n):
