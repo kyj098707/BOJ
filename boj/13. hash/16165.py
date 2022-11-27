@@ -1,4 +1,5 @@
 import sys
+
 input = sys.stdin.readline
 
 T, m = map(int, input().split())
@@ -18,9 +19,8 @@ for _ in range(m):
     p = input().rstrip()
     opt = int(input())
 
-    if opt == 1:   
+    if opt == 1:
         print(dic_2[p])
     else:
         for member in sorted(dic[p]):
             print(member)
-       

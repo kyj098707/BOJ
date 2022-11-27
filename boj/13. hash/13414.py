@@ -1,4 +1,5 @@
 import sys
+
 input = sys.stdin.readline
 
 k, n = map(int, input().split())
@@ -11,7 +12,7 @@ for _ in range(n):
     else:
         del dic[stu_num]
         dic[stu_num] = 1
-cnt = 0    
+cnt = 0
 for stu, times in dic.items():
     if times > 1:
         continue
@@ -19,4 +20,3 @@ for stu, times in dic.items():
     cnt += 1
     if cnt == k:
         break
-

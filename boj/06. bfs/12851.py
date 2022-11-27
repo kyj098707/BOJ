@@ -1,8 +1,9 @@
 from collections import deque
-n, m = map(int,input().split())
+
+n, m = map(int, input().split())
 visit = [100002 for _ in range(200006)]
 
-if n >= m :
+if n >= m:
     print(n - m)
     print(1)
     quit()
